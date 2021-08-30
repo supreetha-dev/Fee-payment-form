@@ -1,0 +1,138 @@
+body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main{
+            width:70%;
+            margin:auto;
+        }
+        .payUlogo{
+            background-color: rgb(92, 201, 20);
+            color: white;
+            padding: 5px;
+            display: inline;
+            
+            border-radius: 5px;;
+        }
+        .box1{
+            background-color: rgb(46, 170, 52);
+            margin-top: 10px;
+            color: white;
+            font-size: 12px;
+            padding: 5px;
+            padding-left:3px;
+            height: 18px; 
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .box11{
+            float: left;
+            margin-left: 10px;
+        }
+        .box12{
+           float: right;
+           margin-right: 20%;
+        }
+
+        .box2{
+            /* border-bottom: lightgrey; */
+            /* border-bottom: 1px solid rgb(192, 188, 188); */
+            border-left: 1px solid rgb(192, 188, 188);
+            border-right: 1px solid rgb(192, 188, 188);
+            overflow: auto;
+        }
+        .box21{
+           /* border:2px solid gray; */
+           display: inline;
+           float: left; 
+           box-shadow: 1px 1px 3px 2px lightgrey;
+           margin: 10px;
+           padding: 6px 10px 6px 10px;
+           text-align: center;
+           font-size: 10px;
+           border-radius: 4px;
+        }
+
+        .box22{
+            padding-top: 10px;
+            margin-left: 18px;
+        }
+
+        .box3{
+            font-size: 12px;
+            padding: 10px;
+            border: 1px solid rgb(192, 188, 188);
+        }
+        .required:after{
+            content:"*";
+            color:red;
+        }
+     
+            
+        
+        .box4{
+            border-left: 1px solid rgb(192, 188, 188);
+            border-right: 1px solid rgb(192, 188, 188);
+            border-bottom: 1px solid rgb(192, 188, 188);
+            padding:10px;
+            overflow: auto;
+            font-size: 12px;
+        }
+        label{
+            float:left;
+            margin-left: 2%;
+            
+        }
+        input{
+            float:right;
+            margin-right: 47%;
+            width:35%;
+        }
+        .btn{
+            color:green;
+            float: right;
+            font-weight:bolder;
+            height: 100%;
+            margin-top: 0;
+        }
+        .btn:hover{
+            cursor:pointer;
+        }
+        .paid{
+            box-shadow: 1px 1px 3px 2px lightgrey;
+            width:2.2%;
+            margin-right:5px;
+            border: 1px solid rgb(240, 238, 238); 
+            display: inline;
+            border-radius: 4px;
+        }
+        .box5{
+            border-left: 1px solid rgb(192, 188, 188);
+            border-right: 1px solid rgb(192, 188, 188);
+            border-bottom: 1px solid rgb(192, 188, 188);
+            padding:30px;
+            overflow: auto;
+            font-size: 12px;
+        }
+        .box6{
+            margin:20px;
+        }
+        .box61{
+            margin-left: 150px;
+        }
+        .box62{
+            background-color: rgb(228, 3, 3);
+            border: none;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            width: 150px;
+            color: white;
+            float:left;
+            margin-left: 150px;
+            
+        }
+        form{
+            box-shadow: 1px 1px 3px 2px lightgrey;
+            border-radius: 5px;
+        }
+
